@@ -1,0 +1,22 @@
+{
+  "name": "vara-wire-rag",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "local": "vercel dev",
+    "start": "vercel dev",
+    "build": "echo 'Vercel builds serverless functions automatically'"
+  },
+  "dependencies": {
+    "@qdrant/js-client-rest": "^1.15.1",
+    "@vercel/node": "^3.2.0",
+    "openai": "^4.104.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "typescript": "^5.4.0"
+  }
+}
+
+
